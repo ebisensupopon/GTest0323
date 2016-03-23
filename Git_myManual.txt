@@ -1,0 +1,46 @@
+
+Gitのインストール方法
+http://opcdiary.net/?page_id=27065
+
+
+Githubで登録
+https://github.com/
+
+Gitコマンド
+http://commte.net/blog/archives/5251
+
+
+Githubの使い方
+http://techacademy.jp/magazine/6235
+
+Githubをつかったオンラインでの共同
+http://blog.shun-ichiro.com/howto/github_private/
+
+
+
+用語
+
+リポジトリ：ファイルデータを記録する場所（自分のPC、サーバどちらも）
+クローン：ローカル（自分のPC）にサーバのファイルをコピー
+コミット：編集箇所の履歴を記録。反映
+プル：サーバのファイルをローカルに反映
+プッシュ：アップロード
+プルリクエスト：変更した内容を他者のリポジトリへ、取り込み依頼をする
+マージ：差分を精査し、複数履歴や新たな情報を統合
+フェッチ：リモートの最新履歴の取得のみ行う、マージはしない
+フォーク：中央リポジトリを自分のアカウントにコピー
+インデックス：コミットするファイルを登録する場所
+ステージ：コミット前に移動させる場所
+ワーキングツリー：現在編集しているファイル
+ブランチ：コミットの集まり。複数の作業履歴を並行して記録
+ヘッド：現在編集中のブランチの頭、作業対象
+チェックアウト：作業対象（ヘッド）を切り替える
+
+
+git config --global user.name "Mei Sei"
+git config --global user.email "hoge@email.com"
+git config --global color.ui auto
+git config --global core.quotepath false
+git config --global --unset i18n.logoutputencoding
+git config --global --unset i18n.commitencoding
+git config --global --unset svn.pathnameencoding
