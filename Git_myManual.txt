@@ -1,4 +1,6 @@
-Git myManual
+Git myManual+-
+
+This is Test!
 
 Gitのインストール方法
 http://opcdiary.net/?page_id=27065
